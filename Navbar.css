@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8e8c8c; 
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+  
+  .navbar-right ul {
+    list-style: none;
+    display: flex; 
+    gap: 10px;
+  }
+  
+  .navbar-right ul li {
+    font-size: 16px;
+  }

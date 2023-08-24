@@ -1,0 +1,40 @@
+.artists-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  flex-wrap: wrap; /* Allow artist tabs to wrap to the next row */
+}
+
+.artist-tab {
+  text-align: center;
+  max-width: calc(30% - 10px); /* Set a maximum width for each artist tab (adjust as needed) */
+  background-color: #d7cfcf;
+  border-radius: 35px;
+  box-shadow: 0 2px 4px rgba(17, 15, 15, 0.2);
+  margin-bottom: 20px; /* Add some bottom margin to separate artist tabs */
+  padding: 20px;
+}
+
+.artist-tab img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.artist-tab h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.artist-tab p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.artist-tab button {
+  background-color: #020202;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

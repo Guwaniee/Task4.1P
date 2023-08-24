@@ -1,0 +1,21 @@
+.image-gallery {
+    text-align: center;
+    margin: 120px;
+  }
+  
+  .gallery-image img {
+    max-widsth: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .gallery-controls button {
+    margin: 10px;
+    padding: 300px 600px; /* Adjust padding to change button size */
+    background-color: #ffebeb;
+    color: #a43131;
+    border: none;
+    cursor: pointer;
+  }
+  

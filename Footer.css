@@ -1,0 +1,39 @@
+.footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Adjust the padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .checkout-cart button,
+  .signup-email button {
+    background-color: #f00; /* Customize the button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .signup-email input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
